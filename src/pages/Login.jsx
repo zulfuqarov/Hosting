@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 const Login = () => {
     return (
-        <div className='flex items-center justify-center h-full py-[60px] bg-blue-50'>
+        <div className='flex items-center justify-center h-screen py-[60px] bg-blue-50'>
             <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
-                <h2 className="text-3xl font-bold text-center text-blue-600">Welcome Back</h2>
+                <h2 className="text-3xl font-bold text-center text-blue-600">Xoş gəlmisiniz</h2>
                 <p className="text-sm text-center text-gray-600">
-                    Please login to your account
+                    Zəhmət olmasa hesabınıza daxil olun
                 </p>
                 <form className="space-y-6">
                     {/* Email Input */}
@@ -16,7 +16,7 @@ const Login = () => {
                             htmlFor="email"
                             className="block text-sm font-medium text-gray-700"
                         >
-                            Email Address
+                            E-poçt ünvanı
                         </label>
                         <input
                             type="email"
@@ -32,7 +32,7 @@ const Login = () => {
                             htmlFor="password"
                             className="block text-sm font-medium text-gray-700"
                         >
-                            Password
+                            Parol
                         </label>
                         <input
                             type="password"
@@ -44,18 +44,11 @@ const Login = () => {
                     </div>
                     {/* Remember Me Checkbox */}
                     <div className="flex items-center justify-between">
-                        <label className="flex items-center">
-                            <input
-                                type="checkbox"
-                                className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
-                            />
-                            <span className="ml-2 text-sm text-gray-600">Remember me</span>
-                        </label>
                         <a
                             href="#"
                             className="text-sm font-medium text-blue-600 hover:text-blue-800"
                         >
-                            Forgot password?
+                            Şifrəni unutmusunuz?
                         </a>
                     </div>
                     {/* Login Button */}
@@ -63,18 +56,17 @@ const Login = () => {
                         type="submit"
                         className="w-full px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     >
-                        Sign In
+                        Daxil ol
                     </button>
                 </form>
                 {/* Sign Up Link */}
                 <p className="text-sm text-center text-gray-600">
-                    Don't have an account?
+                    Hesabınız yoxdur?
                     <Link to="/Register" className="font-medium text-blue-600 hover:text-blue-800">
-                        Sign up
+                        Qeydiyyatdan keçin
                     </Link>
                 </p>
             </div>
-
         </div>
     )
 }

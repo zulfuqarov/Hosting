@@ -4,6 +4,7 @@ import AboutCard from '../components/AboutCard'
 import Hostingor from '../components/Hostingor'
 import Happy from '../components/Happy'
 import Quationss from '../components/Quationss'
+import Service from '../components/Service'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Header />
       <AboutCard />
       <Hostingor />
+      <Service />
       <Happy />
       <Quationss />
     </section>

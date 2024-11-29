@@ -15,7 +15,7 @@ const hostingOptions = [
                 description: "Böyük layihələr üçün idealdır. Güclü CPU, geniş RAM və sürətli SSD-lər ilə işinizi inkişaf etdirin."
             },
             {
-                heading: "Tam Kontrollü VDS Server ilə Tamazlıq və Performans!",
+                heading: "Tam Kontrollü VDS Server ilə Performans!",
                 description: "Özəllikləri tam idarə edin, təhlükəsizlik önlemlərini özünüz seçin."
             }
         ]

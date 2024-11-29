@@ -7,7 +7,7 @@ const NavBar = () => {
     setshowBars(!showBars)
   }
   return (
-    <div className="bg-gradient-to-r from-[#2A77F7] to-[#1243AA] w-full h-full">
+    <div className="bg-gradient-to-r px-[15px] from-[#2A77F7] to-[#1243AA] w-full h-full">
       <div className="mx-auto container py-[60px]">
         <div className="flex justify-between items-center">
           <Link to="/">
@@ -27,7 +27,7 @@ const NavBar = () => {
               <i className="fa-solid fa-right-from-bracket text-white font-semibold"></i>
             </Link>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <button onClick={handleBarsClick} className="text-white text-[26px] font-semibold">☰</button>
           </div>
         </div>
